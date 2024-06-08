@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container w-50">
+      <form class="shadow-lg p-5 mb-5 mt-5 rounded" id="signUpForm">
+        <h1 class="text-center mb-5">Smart Sign Up System</h1>
+        <div class="form-group">
+          <input
+            type="text"
+            class="form-control mb-3"
+            id="exampleInputName"
+            placeholder="Enter Your Name"
+            name="name"
+            required
+          />
+          <div id="nameValidationMessage" class="invalid-feedback">
+            Invalid name. Name can contain only letters and spaces.
+          </div>
+        </div>
+        <div class="form-group">
+          <input
+            type="email"
+            class="form-control mb-3"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+            placeholder="Enter email"
+            name="email"
+            required
+          />
+          <div id="emailValidationMessage" class="invalid-feedback">
+            Invalid email address.
+          </div>
+        </div>
+
+        <div class="form-group">
+          <input
+            type="password"
+            class="form-control mb-3"
+            id="exampleInputPassword1"
+            placeholder="Password"
+            name="password"
+            required
+          />
+          <div id="passwordValidationMessage" class="invalid-feedback">
+            Invalid password. Password must contain at least one lowercase
+            letter, one uppercase letter, one number, and be at least 8
+            characters long.
+          </div>
+        </div>
+        <button type="submit" class="btn btn-outline-info w-100 my-3 w-100">
+          Register
+        </button>
+        <h3 class="text-center">
+          have an account. <a href="./index.html">SignIn</a>
+        </h3>
+      </form>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script src="./js/common.js"></script>
+    <script src="./js/signUp.js"></script>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+body{
+    background-color: #24353F;
+}
+form ,.container-fluid , .bg-light{
+    background-color: #24353F!important;
+
+}    
+.shadow-lg {
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 1) !important;
+
+}
+h1{
+
+color: #17A1B7;
+}
+.form-control{
+    background-color: unset;
+}
+.form-control:focus {
+    color: #cac9c9;
+    background-color:unset;
+    border-color: #fe8686;
+    outline: 0;
+    box-shadow: 0 0 0 .25rem rgba(13,110,253,.25);
+}
+.form-control{
+    color: #cac9c9;
+
+}
